@@ -18,11 +18,14 @@
 # |  4 |
 # +----+
 #
-### Explanation
-# Used `INNER JOIN` to compare `table` Weather with itself. 
-
+#
+# Approach: Using `INNER JOIN` and `DATEDIFF()`function
+# Runtime: 615 ms, faster than 30.34% of MySQL online submissions for Rising Temperature.
+# Memory Usage: 0B, less than 100.00% of MySQL online submissions for Rising Temperature.
+#
 # Write your MySQL query statement below
 
-SELECT table1.Id as 'Id'
-FROM Weather as table1
-INNER JOIN Weather as table2
+SELECT tb1.Id as 'Id'
+FROM Weather as tb1
+INNER JOIN Weather as tb2
+ON datediff(tb1.RecordDate, tb2.RecordDate) = 1 and tb1.Temperature > tb2.Temperature
