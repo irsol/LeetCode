@@ -19,7 +19,7 @@
 # +----+
 #
 #
-# Approach: Using ```INNER JOIN``` and ```DATEDIFF()``` function
+# Approach: Using INNER JOIN and DATEDIFF() function
 # Runtime: 615 ms, faster than 30.34% of MySQL online submissions for Rising Temperature.
 # Memory Usage: 0B, less than 100.00% of MySQL online submissions for Rising Temperature.
 #
