@@ -18,3 +18,11 @@
 # |  4 |
 # +----+
 #
+### Explanation
+# Used `INNER JOIN` to compare `table` Weather with itself. 
+
+# Write your MySQL query statement below
+
+SELECT table1.Id as 'Id'
+FROM Weather as table1
+INNER JOIN Weather as table2
