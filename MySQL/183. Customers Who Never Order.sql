@@ -28,3 +28,6 @@ Using the above tables as example, return the following:
 | Max       |
 +-----------+
 **/
+
+Select Name as Customers From Customers Where Id not in 
+(Select CustomerId From Orders);
