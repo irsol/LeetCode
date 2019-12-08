@@ -29,5 +29,13 @@ Using the above tables as example, return the following:
 +-----------+
 **/
 
-Select Name as Customers From Customers Where Id not in 
-(Select CustomerId From Orders);
+/** 1 Solution **/
+
+SELECT Name AS Customers FROM Customers WHERE Id NOT IN 
+(SELECT CustomerId FROM Orders);
+
+/** 2 Solution**/
+
+SELECT Name AS Customers FROM Customers AS C
+LEFT JOIN Orders AS O ON C.Id = O.CustomerId
+WHERE O.Id IS NULL;
