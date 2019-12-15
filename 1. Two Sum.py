@@ -12,18 +12,9 @@ def twoSum(nums, target):
     :type target: int
     :rtype: List[int]
     """
-    nums.sort()    
-    sum = nums[0]
-
-    for num in range(0,target-1):
-        if (nums[num] != nums[num+1]):
-            sum = sum + nums[num+1]
-    return sum
-  
-def main(): 
-  nums= [1, 2, 3, 1, 1, 4, 5, 6] 
-  target = len(nums) 
-  print(twoSum(nums, target)) 
-  
-if __name__ == '__main__': 
-    main() 
+    hash_tb = {}
+    for i, num in enumerate(nums):
+        if target - num in hash_tb:
+            return [hash_tb[target - num], i]
+            
+        hash_tb[num] = i
