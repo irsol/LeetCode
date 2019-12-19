@@ -11,6 +11,8 @@
 # Input: [2,2,1]
 # Output: 1
 
+# Runtime: 72 ms, faster than 61.59% of Python online submissions for Single Number.
+# Memory Usage: 13.9 MB, less than 35.13% of Python online submissions for Single Number.
 
 class Solution(object):
     def singleNumber(self, nums):
