@@ -8,3 +8,20 @@
 #
 # Input: [2,2,3,2]
 # Output: 3
+
+
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        
+        newlst = list(set(nums))
+        for num in newlst:
+            if nums.count(num) == 1:
+                return num
+            continue
+        return None
+
+     
