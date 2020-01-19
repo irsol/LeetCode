@@ -20,9 +20,11 @@ class Solution(object):
       # Runtime: 1348 ms, faster than 5.06% of Python online submissions for Single Number II.
       # Memory Usage: 13.8 MB, less than 45.45% of Python online submissions for Single Number II.
 
-        newlst = list(set(nums)) 
-        for num in newlst:
-          # check if exists in newlst or not
+        # convert to a set then back to a list
+        new_lst = list(set(nums)) 
+        
+        for num in new_lst:
+          # check if exists in new_lst or not
             if nums.count(num) == 1:
                 return num
         return None
