@@ -17,11 +17,14 @@ class Solution(object):
         :rtype: int
         """
         
-        newlst = list(set(nums))
+      # Runtime: 1348 ms, faster than 5.06% of Python online submissions for Single Number II.
+      # Memory Usage: 13.8 MB, less than 45.45% of Python online submissions for Single Number II.
+
+        newlst = list(set(nums)) 
         for num in newlst:
+          # check if exists in newlst or not
             if nums.count(num) == 1:
                 return num
-            continue
         return None
 
      
