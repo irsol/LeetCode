@@ -7,6 +7,9 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
+      # Runtime: 20 ms, faster than 43.27% of Python online submissions for Pascal's Triangle.
+      # Memory Usage: 11.8 MB, less than 30.00% of Python online submissions for Pascal's Triangle.
+
         output = []
 
         for r in range(numRows):
