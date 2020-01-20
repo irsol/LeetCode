@@ -18,10 +18,10 @@ class Solution(object):
                 
                 row[c] = output[r - 1][c -1] + output[r -1][c]
             output.append(row)
-        return output 
+        return output
 
 
-      """
+"""       
         output = []
         for row in range(numRows):
             output.append(1)
@@ -29,4 +29,4 @@ class Solution(object):
             for i in range(row - 1, 0, -1):
               output[i] += output[i - 1]
             print(*output)
-      """
+         """
