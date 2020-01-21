@@ -14,10 +14,11 @@
 
 ### MySQL
 
+[176. Second Highest Salary](https://github.com/irsol/LeetCode/blob/master/MySQL/176.%20Second%20Highest%20Salary.sql)
+
 [183. Customers Who Never Order](https://github.com/irsol/LeetCode/blob/master/MySQL/183.%20Customers%20Who%20Never%20Order.sql)
 
 [196. Delete Duplicate Email](https://github.com/irsol/LeetCode/blob/master/MySQL/196.%20Delete%20Duplicate%20Email.sql)
 
 [197. Rising Temperature](https://github.com/irsol/LeetCode/blob/master/MySQL/197.%20Rising%20Temperature.sql)
 
-[]()
