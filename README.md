@@ -8,5 +8,5 @@
 
 [136. Single Number](https://github.com/irsol/LeetCode/blob/master/136.%20%20Single%20Number.py)
 
-[]()
+[137. Single Number 2](https://github.com/irsol/LeetCode/blob/master/137.%20Single%20Number.py)
 
