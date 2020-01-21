@@ -16,6 +16,6 @@ class Solution(object):
         for r in range(numRows):
             row = [1] * (r + 1)
             for c in range(1, r):                
-                row[c] = output[r - 1][c -1] + output[r -1][c]
+                row[c] = output[r - 1][c - 1] + output[r - 1][c]
             output.append(row)
         return output
