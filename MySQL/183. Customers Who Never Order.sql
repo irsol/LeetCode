@@ -1,4 +1,5 @@
-/**
+-- 183. Customers Who Never Order 
+/*
 Suppose that a website contains two tables, the Customers table and the Orders table. Write a SQL query to find all customers who never order anything.
 
 Table: Customers.
@@ -27,14 +28,14 @@ Using the above tables as example, return the following:
 | Henry     |
 | Max       |
 +-----------+
-**/
+*/
 
-/** 1 Solution **/
+-- 1 Solution
 
 SELECT Name AS Customers FROM Customers WHERE Id NOT IN 
 (SELECT CustomerId FROM Orders);
 
-/** 2 Solution**/
+-- 2 Solution 
 
 SELECT Name AS Customers FROM Customers AS C
 LEFT JOIN Orders AS O ON C.Id = O.CustomerId
