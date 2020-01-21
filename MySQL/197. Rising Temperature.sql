@@ -1,4 +1,5 @@
-/**
+-- 197. Rising Temperature
+/*
 Given a Weather table, write a SQL query to find all dates
 Ids with higher temperature compared to its previous (yesterdays) dates.
 
@@ -24,7 +25,7 @@ Runtime: 615 ms, faster than 30.34% of MySQL online submissions for Rising Tempe
 Memory Usage: 0B, less than 100.00% of MySQL online submissions for Rising Temperature.
 
 Write your MySQL query statement below
-**/
+*/
 
 SELECT tb1.Id as 'Id'
 FROM Weather as tb1
