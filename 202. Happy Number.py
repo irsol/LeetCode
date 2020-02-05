@@ -18,3 +18,21 @@ Explanation:
 62 + 82 = 100
 12 + 02 + 02 = 1
 """
+
+class Solution(object):
+    def isHappy(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
+        s = set()
+        
+        while n != 1 and n not in s:
+            s.add(n)
+            sum = 0
+            while n:
+                sum += (n % 10) * (n % 10)
+                n = int(n / 10)
+            n = sum
+        return n == 1
+
