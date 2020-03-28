@@ -12,6 +12,12 @@
 
 [137. Single Number 2](https://github.com/irsol/LeetCode/blob/master/137.%20Single%20Number.py)
 
+[202. Happy Number](https://github.com/irsol/LeetCode/blob/master/202.%20Happy%20Number.py)
+
+[217. Contains Duplicate ](https://github.com/irsol/LeetCode/blob/master/217.%20Contains%20Duplicate.py)
+
+[387. First Unique Character in a String](https://github.com/irsol/LeetCode/blob/master/387.%20First%20Unique%20Character%20in%20a%20String.py)
+
 ### MySQL
 
 [176. Second Highest Salary](https://github.com/irsol/LeetCode/blob/master/MySQL/176.%20Second%20Highest%20Salary.sql)
