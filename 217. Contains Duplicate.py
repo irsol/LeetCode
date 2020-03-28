@@ -20,6 +20,8 @@ class Solution(object):
 
 
 # Second Solution
+# Runtime: 112 ms, faster than 32.11% of Python online submissions for Contains Duplicate.
+# Memory Usage: 18.1 MB, less than 5.55% of Python online submissions for Contains Duplicate.
 
 def containsDuplicateSecond(self, nums):
     # Convert lust to a set
