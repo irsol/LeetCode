@@ -36,3 +36,11 @@ class Solution(object):
             n = sum
         return n == 1
 
+
+def setUp(self):
+  self.solution = Solution()
+
+def test_1(self):
+  n = 19
+  check = self.solution.isHappy(n)
+  self.assertTrue(check)
