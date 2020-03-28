@@ -4,6 +4,7 @@
 # Your function should return true if any value appears at least twice in
 # the array, and it should return false if every element is distinct.
 
+# First Solution
 # Runtime: 100 ms, faster than 91.41% of Python online submissions for Contains Duplicate.
 # Memory Usage: 18 MB, less than 5.55% of Python online submissions for Contains Duplicate.
 
@@ -16,3 +17,12 @@ class Solution(object):
                 return True
             nums_set.add(x)            
         return False
+
+
+# Second Solution
+
+def containsDuplicateSecond(self, nums):
+    # Convert lust to a set
+    nums_set = set(nums)
+    # If number of element in nums and in nums_set not the same return False 
+    return len(nums) != len(nums_set)
