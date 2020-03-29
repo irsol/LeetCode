@@ -13,3 +13,6 @@ class Solution(object):
         :type sum: int
         :rtype: bool
         """
+        # Return False if root is empty 
+        if root is None:
+            return False 
