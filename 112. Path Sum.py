@@ -25,3 +25,10 @@ class Solution(object):
             return False
         return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 
+
+        # Shorter Solution
+        if root is None:
+            return False
+        if not root.left and not root.right:
+            return root.val == sum
+        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
