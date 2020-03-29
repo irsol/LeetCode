@@ -9,6 +9,13 @@
 # Runtime: 32 ms, faster than 72.74% of Python online submissions for Path Sum.
 # Memory Usage: 16.3 MB, less than 6.82% of Python online submissions for Path Sum.
 
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
 class Solution(object):
     def hasPathSum(self, root, sum):
         """
@@ -27,8 +34,9 @@ class Solution(object):
 
 
         # Shorter Solution
-        if root is None:
-            return False
-        if not root.left and not root.right:
-            return root.val == sum
-        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
+        # if root is None:
+        #    return False
+        # if not root.left and not root.right:
+        #    return root.val == sum
+        # return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
+        
