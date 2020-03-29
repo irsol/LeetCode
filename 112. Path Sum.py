@@ -6,6 +6,9 @@
 
 # return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
+# Runtime: 32 ms, faster than 72.74% of Python online submissions for Path Sum.
+# Memory Usage: 16.3 MB, less than 6.82% of Python online submissions for Path Sum.
+
 class Solution(object):
     def hasPathSum(self, root, sum):
         """
@@ -15,4 +18,10 @@ class Solution(object):
         """
         # Return False if root is empty 
         if root is None:
-            return False 
+            return False
+        if root.left is None and root.right is None and root.val == sum:
+            return True
+        if root.left is None and root.right is None and root.val != sum:
+            return False
+        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
+
