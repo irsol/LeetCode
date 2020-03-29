@@ -6,6 +6,8 @@
 
 [1. Two Sum](https://github.com/irsol/LeetCode/blob/master/1.%20Two%20Sum.py)
 
+[112. Path Sum](https://github.com/irsol/LeetCode/blob/master/112.%20Path%20Sum.py)
+
 [118. Pascal's Triangle](https://github.com/irsol/LeetCode/blob/master/118.%20Pascal's%20Triangle.py)
 
 [136. Single Number](https://github.com/irsol/LeetCode/blob/master/136.%20%20Single%20Number.py)
