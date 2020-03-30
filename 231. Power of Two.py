@@ -5,3 +5,16 @@
 # Input: 16
 # Output: true
 # Explanation: 24 = 16
+
+class Solution(object):
+    def isPowerOfTwo(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
+
+        if n == 0:
+            return False
+        while n%2 == 0:
+            n = n/2
+        return n == 1
