@@ -18,6 +18,8 @@
 
 [217. Contains Duplicate ](https://github.com/irsol/LeetCode/blob/master/217.%20Contains%20Duplicate.py)
 
+[231. Power of Two](https://github.com/irsol/LeetCode/blob/master/231.%20Power%20of%20Two.py)
+
 [242. Valid Anagram](https://github.com/irsol/LeetCode/blob/master/242.%20Valid%20Anagram.py)
 
 [387. First Unique Character in a String](https://github.com/irsol/LeetCode/blob/master/387.%20First%20Unique%20Character%20in%20a%20String.py)
