@@ -6,6 +6,9 @@
 # Output: true
 # Explanation: 24 = 16
 
+# Runtime: 16 ms, faster than 84.51% of Python online submissions for Power of Two.
+# Memory Usage: 12.9 MB, less than 11.76% of Python online submissions for Power of Two.
+
 class Solution(object):
     def isPowerOfTwo(self, n):
         """
