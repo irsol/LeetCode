@@ -10,6 +10,10 @@
 
 [118. Pascal's Triangle](https://github.com/irsol/LeetCode/blob/master/118.%20Pascal's%20Triangle.py)
 
+[121. Best Time to Buy and Sell Stock](https://github.com/irsol/LeetCode/blob/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)
+
+[122. Best Time to Buy and Sell Stock 2]()
+
 [136. Single Number](https://github.com/irsol/LeetCode/blob/master/136.%20%20Single%20Number.py)
 
 [137. Single Number 2](https://github.com/irsol/LeetCode/blob/master/137.%20Single%20Number.py)
