@@ -1,3 +1,4 @@
+import unittest
 # 121. Best Time to Buy and Sell Stock
 #
 # Say you have an array for which the ith element is the price of a given stock on day i.
@@ -11,6 +12,17 @@
 # Output: 5
 # Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
             # Not 7-1 = 6, as selling price needs to be larger than buying price.
+
+
+class unitest(unittest.TestCase):
+    def testEmptyList(self):
+        input = []
+        output = 0
+        self.assertEqual(Solution().maxProfit(input), output)
+    def test_a(self):
+        input = [7,1,5,3,6,4]
+        output = 5
+        self.assertEqual(Solution().maxProfit(input), output)
 
 
 class Solution(object):
@@ -31,3 +43,6 @@ class Solution(object):
             elif max_profit < n - min_price:
                 max_profit = n - min_price
         return max_profit
+
+if __name__ == '__main__':
+    unittest.main()
