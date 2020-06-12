@@ -1,0 +1,9 @@
+{
+    "types": {
+      "feat": "a new feature",
+      "fix": "a bug fix",
+      "BREAKING_CHANGE": "this changes can break"
+
+    },
+    "min-len": 5
+}
