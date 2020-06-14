@@ -5,5 +5,5 @@
       "BREAKING_CHANGE": "this changes can break"
 
     },
-    "min-len": 5
+    "min-len": 7
 }
